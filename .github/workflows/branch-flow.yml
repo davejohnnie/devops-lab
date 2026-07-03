@@ -20,9 +20,11 @@ jobs:
             echo "Error: Pull requests into staging must come from develop."
             exit 1
           fi
-
-          if [[ "${{ github.base_ref }}" == "main" && "${{ github.head_ref }}" != "staging" ]]; then
-            echo "Error: Pull requests into main must come from staging."
+           
+          if [[ "${{ github.base_ref }}" == "main" && \
+            "${{ github.head_ref }}" != "staging" && \
+            "${{ github.head_ref }}" != "develop" ]]; then
+            echo "Error: Pull requests into main must come from staging or develop."
             exit 1
           fi
 
