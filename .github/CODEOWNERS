@@ -1,9 +1,9 @@
-.github/ @davejohnnie
-.github/workflows/ @davejohnnie
-.github/CODEOWNERS @davejohnnie
+.github/ @davejohnnie @Munene-Gitau1
+.github/workflows/ @davejohnnie @Munene-Gitau1
+.github/CODEOWNERS @davejohnnie @Munene-Gitau1
 
 /backend/ @Munene-Gitau1
-/frontend/ @tylerrjim
-/devops/ @davejohnnie
+/frontend/ @tylerrjim @Munene-Gitau1
+/devops/ @davejohnnie @Munene-Gitau1
 
-* @davejohnnie
+* @davejohnnie @Munene-Gitau1
